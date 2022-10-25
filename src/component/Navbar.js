@@ -12,10 +12,10 @@ const Navbar = () => {
                 </div>
                 <div>
                     <ul className="flex gap-5">
-                        <li>บ้านเดี่ยว</li>
-                        <li>ทาวเฮาส์</li>
-                        <li>คอนโด</li>
-                        <li>พื้นที่ค้าขาย</li>
+                    <Link to="House"><li>บ้านเดี่ยว</li></Link>
+                    <Link to="Towehouse"><li>ทาวเฮาส์</li></Link>
+                    <Link to="Condo"><li>คอนโด</li></Link>
+                    <Link to="Area"><li>พื้นที่ค้าขาย</li></Link>
                     </ul>
                 </div>
                 <div >
