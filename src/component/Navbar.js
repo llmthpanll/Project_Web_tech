@@ -50,7 +50,7 @@ const Navbar = () => {
                             <SearchIcon className="cursor-pointer" sx={{ fontSize: 25 }} />
                         </li>
                         <li>
-                            <MenuIcon onClick={showSidebar} sx={{ fontSize: 25 }} />
+                            <MenuIcon className="cursor-pointer" onClick={showSidebar} sx={{ fontSize: 25 }} />
                         </li>
                     </ul>
                 </div>
