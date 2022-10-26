@@ -13,9 +13,9 @@ const Navbar = () => {
             {/* navbar */}
             <div className={sidebar ? "fixed top-0 right-0 h-full w-64 px-5 py-3 z-10 bg-white ": "hidden duration-300"}>
                 <button className='absolute right-2.5 btn' onClick={showSidebar}><DisabledByDefaultIcon /></button>
-                <ul className='relative '>
+                <ul className='relative'>
                     <div className='mt-14 grid gap-y-4'>
-                        <Link to="Sign"><li>Sign In</li><Link/>
+                        <Link to="Sign"><li>Sign In</li></Link>
                         <Link to="Contract"><li>Contract Us</li></Link>
                     </div>
                 </ul>
