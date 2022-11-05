@@ -1,9 +1,20 @@
 import Navbar from "../component/Navbar"
+import Footer from "../component/Footer"
+import SlideShow_home from "../component/Slideshow_home"
+// import "./home.css"
 const Home = ()=>{
     return(
         <div>
             <Navbar/>
-            <img className="w-full" src={"https://images.unsplash.com/photo-1568605114967-8130f3a36994?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"}/>
+                <div className="flex bg-head2 bg-cover h-screen text-center  justify-center">
+                    <div className="text-white absolute bottom-16 font-semibold text-6xl">
+                        Welcome to Shop
+                    </div>
+                    <button></button>
+                </div>
+                <div className="bg-head bg-cover h-screen "></div>
+            <Footer/>
+            {/* <SlideShow_home/> */}
         </div>
 
     );
