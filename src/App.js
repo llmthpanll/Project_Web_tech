@@ -16,6 +16,7 @@ export default function App() {
     <Routes>
       <Route path="/" element={<Home />} ></Route>
       <Route path="House" element={<House />}></Route>
+      <Route path="Sign" element={<Sign />}></Route>
     </Routes>
   </BrowserRouter>
   );

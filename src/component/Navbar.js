@@ -15,8 +15,8 @@ const Navbar = () => {
                 <button className='absolute right-2.5 btn' onClick={showSidebar}><DisabledByDefaultIcon /></button>
                 <ul className='relative'>
                     <div className='mt-14 grid gap-y-4'>
-                        <Link to="Sign"><li>Sign In</li></Link>
-                        <Link to="Contract"><li>Contract Us</li></Link>
+                        <Link to="/Sign"><li>Sign In</li></Link>
+                        <Link to="/Contract"><li>Contract Us</li></Link>
                     </div>
                 </ul>
 
@@ -30,16 +30,16 @@ const Navbar = () => {
                 </div>
                 <div className="align-middle justify-items-center items-center justify-items-center place-items-center">
                     <ul className="flex gap-5 align-middle">
-                        <Link to="House">
+                        <Link to="/House">
                             <li>บ้านเดี่ยว</li>
                         </Link>
-                        <Link to="Towehouse">
+                        <Link to="/Towehouse">
                             <li>ทาวเฮาส์</li>
                         </Link>
-                        <Link to="Condo">
+                        <Link to="/Condo">
                             <li>คอนโด</li>
                         </Link>
-                        <Link to="Area">
+                        <Link to="/Area">
                             <li>พื้นที่ค้าขาย</li>
                         </Link>
                     </ul>

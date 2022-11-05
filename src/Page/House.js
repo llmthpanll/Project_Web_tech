@@ -4,7 +4,8 @@ const House = ()=>{
     return(
         <div>
             <Navbar/>
-            <SlideShow/>
+            {/* <SlideShow/> */}
+
 
         </div>
 
