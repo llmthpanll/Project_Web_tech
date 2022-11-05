@@ -6,14 +6,18 @@ const Home = ()=>{
     return(
         <div>
             <Navbar/>
-                <div className="flex bg-head2 bg-cover h-screen text-center  justify-center">
+            <div className="z-0">
+
+                <div className="flex bg-head2 bg-cover h-screen text-center justify-center relative">
                     <div className="text-white absolute bottom-16 font-semibold text-6xl">
                         Welcome to Shop
                     </div>
-                    <button></button>
                 </div>
-                <div className="bg-head bg-cover h-screen "></div>
+                <div className="bg-head bg-cover h-screen relative">
+                    <button className="font-semibold text-6xl absolute bottom-16">ปุ่มเอง</button>
+                </div>
             <Footer/>
+            </div>
             {/* <SlideShow_home/> */}
         </div>
 

@@ -9,7 +9,7 @@ const Navbar = () => {
     const showSidebar = ()=> setSidebar(!sidebar);
 
     return (
-        <div className="fixed top-0 left-0 right-0">
+        <div className="fixed top-0 left-0 right-0 z-10">
             {/* navbar */}
             <div className={sidebar ? "fixed top-0 right-0 h-full w-64 px-5 py-3 z-10 bg-white ": "hidden duration-300"}>
                 <button className='absolute right-2.5 btn' onClick={showSidebar}><DisabledByDefaultIcon /></button>
