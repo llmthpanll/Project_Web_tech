@@ -16,7 +16,7 @@ const Navbar = () => {
                 <ul className='relative'>
                     <div className='mt-14 grid gap-y-4'>
                         <Link to="/Sign"><li>Sign In</li></Link>
-                        <Link to="/Contract"><li>Contract Us</li></Link>
+                        <Link to="/Contract"><li>Contact Us</li></Link>
                     </div>
                 </ul>
 
