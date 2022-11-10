@@ -1,4 +1,3 @@
-
 import Navbar from "../component/Navbar"
 import Footer from "../component/Footer"
 import SlideShowhome from "../component/Slidehome"
