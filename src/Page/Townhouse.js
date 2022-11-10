@@ -1,7 +1,7 @@
 import Navbar from "../component/Navbar"
 import Footer from "../component/Footer"
 import SlideShow from "../component/Slideshow"
-const Towerhouse = ()=>{
+const Townhouse = ()=>{
     return(
         <div>
             <Navbar/>
@@ -13,4 +13,4 @@ const Towerhouse = ()=>{
     );
 }
 
-export default Towerhouse;
+export default Townhouse;

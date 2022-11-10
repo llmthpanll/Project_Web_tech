@@ -1,11 +1,11 @@
 import Navbar from "../component/Navbar"
 import Footer from "../component/Footer"
-import SlideShow_home from "../component/Slidehome"
-// import "./home.css"
-const Home = ()=>{
-    return(
+import Slidehome from "../component/Slidehome"
+
+const Home = () => {
+    return (
         <div>
-            <Navbar/>
+            <Navbar />
             <div className="z-0 ">
 
                 <div className="flex bg-head2 bg-cover h-screen text-center justify-center relative">
@@ -15,16 +15,16 @@ const Home = ()=>{
 
                 </div>
                 <div className=" flex bg-head bg-cover h-screen relative text-center justify-center ">
-                   <button class=" font-Kanit absolute bottom-10 bg-gray-300 bg-opacity-75 hover:bg-gray-200 text-black font-bold py-2 px-4  rounded w-48 text-2xl">
-  จองเลย
-</button>
+                        <button className=" font-Kanit absolute bottom-10 bg-gray-300 bg-opacity-75 hover:bg-gray-200 text-black font-bold py-2 px-4  rounded w-48 text-2xl">จองเลย</button>
                 </div>
-            <Footer/>
+                <div className=" flex bg-house bg-cover h-screen relative text-center justify-center ">
+                </div>
+                    {/* <Slidehome/> */}
+                    <Footer />
+                </div>
             </div>
-            {/* <SlideShow_home/> */}
-        </div>
 
-    );
+            );
 }
 
-export default Home;
+            export default Home;
