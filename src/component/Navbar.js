@@ -33,11 +33,7 @@ const Navbar = () => {
                         <Link to="/House">
                             <li>บ้านเดี่ยว</li>
                         </Link>
-<<<<<<< Updated upstream
                         <Link to="/Townhouse">
-=======
-                        <Link to="/Towerhouse">
->>>>>>> Stashed changes
                             <li>ทาวเฮาส์</li>
                         </Link>
                         <Link to="/Condo">
