@@ -33,7 +33,7 @@ const Navbar = () => {
                         <Link to="/House">
                             <li>บ้านเดี่ยว</li>
                         </Link>
-                        <Link to="/Towehouse">
+                        <Link to="/Townhouse">
                             <li>ทาวเฮาส์</li>
                         </Link>
                         <Link to="/Condo">

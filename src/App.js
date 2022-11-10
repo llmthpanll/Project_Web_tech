@@ -5,7 +5,7 @@ import Contact from "./Page/Contact";
 import Home from "./Page/Home";
 import House from "./Page/House";
 import Sign from "./Page/Sign";
-import Towerhouse from "./Page/Towerhouse";
+import Townhouse from "./Page/Townhouse";
 
 
 
@@ -18,7 +18,7 @@ export default function App() {
       <Route path="/Sign" element={<Sign />}></Route>
       <Route path="/Condo" element={<Condo />}></Route>
       <Route path="/Contact" element={<Contact />}></Route>
-      <Route path="/Towerhouse" element={<Towerhouse />}></Route>
+      <Route path="/Townhouse" element={<Townhouse />}></Route>
       <Route path="/Area" element={<Area />}></Route>
 
     </Routes>
