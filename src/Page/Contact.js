@@ -12,10 +12,10 @@ const Contact =()=>{
 
             <div className="container mx-auto">
                 <p className="pt-20  text-center text-5xl">ติดต่อพวกเรา</p>
-                <div className="columns-2 text-center">
+                <div className="container w-3/4 columns-2 text-center">
                     <b className="text-2xl">Address</b>
-                    <div>
-                        <p className="text-left pl-80 pt-5">บริษัท แสนสิริ จำกัด (มหาชน)<br></br>
+                    <div className="justify-items-center text-center items-center">
+                        <p className="text-left pl-0 pt-5">บริษัท แสนสิริ จำกัด (มหาชน)<br></br>
                         เลขที่ 59 ซอยริมคลองพระโขนง​ แขวงพระโขนงเหนือ
                         เขตวัฒนา​ กรุงเทพมหานคร 10110<b/>
                         </p>

@@ -16,7 +16,7 @@ const Navbar = () => {
                 <ul className='relative'>
                     <div className='mt-14 grid gap-y-4'>
                         <Link to="/Sign"><li>Sign In</li></Link>
-                        <Link to="/Contract"><li>Contact Us</li></Link>
+                        <Link to="/Contact"><li>Contact Us</li></Link>
                     </div>
                 </ul>
 
@@ -28,7 +28,7 @@ const Navbar = () => {
                         <HouseIcon sx={{ fontSize: 25 }} />
                     </Link>
                 </div>
-                <div className="align-middle justify-items-center items-center justify-items-center place-items-center">
+                <div className="align-middle justify-items-center items-center place-items-center">
                     <ul className="flex gap-5 align-middle">
                         <Link to="/House">
                             <li>บ้านเดี่ยว</li>
