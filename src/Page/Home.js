@@ -36,9 +36,9 @@ const Home = ()=>{
 </button>
                 </div>
 
+            <Slidehome/>
             <Footer/>
             </div>
-            {/* <Slidehome/> */}
         </div>
 
     );
