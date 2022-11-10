@@ -1,6 +1,6 @@
 import Navbar from "../component/Navbar"
 import Footer from "../component/Footer"
-import SlideShow_home from "../component/Slideshow_home"
+import SlideShow_home from "../component/Slidehome"
 // import "./home.css"
 const Home = ()=>{
     return(
