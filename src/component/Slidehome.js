@@ -1,18 +1,18 @@
-import React from 'react';
 import Carousel from 'nuka-carousel';
-import pic from "../path/home.json";
-
-export default class Slidehome extends React.Component {
-  render() {
+const Slidehome = (place)=> {
+    const prop2 = place.place
     return (
       <Carousel>
-        <img src="../Page/Pic/1.jpg" />
-        <img src="https://via.placeholder.com/400/ffffff/c0392b/&text=slide2" />
-        <img src="https://via.placeholder.com/400/ffffff/c0392b/&text=slide3" />
-        <img src="https://via.placeholder.com/400/ffffff/c0392b/&text=slide4" />
-        <img src="https://via.placeholder.com/400/ffffff/c0392b/&text=slide5" />
-        <img src="https://via.placeholder.com/400/ffffff/c0392b/&text=slide6" />
+        {prop2.map((prop2, index)=> (
+                // console.log("../Page/"+prop2.path+"/1-01.png")
+                <div>
+                     <img src={prop2.path+"/1-01.png"} alt="home"/>
+                     {/* <img src="/Pic/house/นาราสิริ โทเพียรี่ นวมินทร์/1-01.png" alt="home"/> */}
+
+                </div>
+            ))}
       </Carousel>
     );
-  }
 }
+
+export default Slidehome

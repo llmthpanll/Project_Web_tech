@@ -2,7 +2,6 @@ import Navbar from "../component/Navbar"
 import MultipleSelect from "../component/Selector"
 import { TextField } from "@mui/material"
 import { Outlet, Link } from "react-router-dom";
-import "../component/Contact.css"
 const Contact =()=>{
     return(
 

@@ -1,7 +1,12 @@
-import Navbar from "../component/Navbar"
-import Footer from "../component/Footer"
-import Slidehome from "../component/Slidehome"
+import React,{useState} from "react";
+import Navbar from "../component/Navbar";
+import Footer from "../component/Footer";
+import Slidehome from "../component/Slidehome";
+import pic from "../path/home.json";
+
 const Home = ()=>{
+    const [sell, setSell] = useState(pic.house)
+    console.log(sell)
     return(
         <div>
             <Navbar/>
@@ -36,7 +41,7 @@ const Home = ()=>{
 </button>
                 </div>
 
-            <Slidehome/>
+            <Slidehome place={sell}/>
             <Footer/>
             </div>
         </div>

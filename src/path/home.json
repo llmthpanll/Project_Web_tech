@@ -1,65 +1,62 @@
 {
-    "house":{
-        "navamin":{
+    "house":[
+        {
             "name":"นาราสิริ โทเพียรี่ นวมินทร์",
             "path":"Pic/house/นาราสิริ โทเพียรี่ นวมินทร์",
             "price":""
         },
-        "bangna":{
+        {
             "name":"นาราสิริ บางนา",
             "path":"Pic/house/นาราสิริ บางนา",
             "price":""
 
         },
-        "pinklao":{
+        {
             "name":"นาราสิริ ปิ่นเกล้า - สาย1",
             "path":"Pic/house/นาราสิริ ปิ่นเกล้า - สาย1",
             "price":""
 
         },
-        "praram2":{
+        {
             "name":"นาราสิริ พระราม 2",
             "path":"Pic/house/นาราสิริ พระราม 2",
             "price":""
 
         },
-        "burasiri":{
+        {
             "name":"บุราสิริ",
             "path":"Pic/house/บุราสิริ",
             "price":""
 
         },
-        "sretsiri":{
+        {
             "name":"เศรษฐสิริ",
             "path":"Pic/house/เศรษฐสิริ",
             "price":""
 
         },
-        "sransiri_bangna":{
+        {
             "name":"สราญสิริ บางนา",
             "path":"Pic/house/สราญสิริ บางนา",
             "price":""
 
         },
-        "sransiri_prachauthid90":{
+        {
             "name":"สราญสิริ ประชาอุทิศ 90",
             "path":"Pic/house/สราญสิริ ประชาอุทิศ 90",
             "price":""
 
         },
-        "sransiri_praram2":{
+        {
             "name":"สราญสิริ พระราม 2",
             "path":"Pic/house/สราญสิริ พระราม 2",
             "price":""
-
         }
-
-    },
+    ],
     "market":{
         "path":"Pic/market"
 
     },
-
     "condo":{
         "xt phayathai":{
             "name" :"เอ็กซ์ที พญาไท",
@@ -72,17 +69,17 @@
             "price":""
         }
     },
-    "townhouse":{
-        "town avenue":{
+    "townhouse":[
+        {
             "name" :"ทาวน์ อเวนิว",
             "path" :"Pic/townhouse/ทาวน์ อเวนิว",
             "price":""
         },
-        "town avenue merge":{
+        {
             "name" :"ทาวน์ อเวนิว เมิร์จ รัตนาธิเบศร์",
             "path" :"Pic/townhouse/ทาวน์ อเวนิว เมิร์จ รัตนาธิเบศร์",
             "price":""
         }
-    }
+    ]
 }
 
