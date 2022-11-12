@@ -53,22 +53,22 @@
             "price":""
         }
     ],
-    "market":{
-        "path":"Pic/market"
+    "market":[
+        {"path":"Pic/market"}
 
-    },
-    "condo":{
-        "xt phayathai":{
+    ],
+    "condo":[
+        {
             "name" :"เอ็กซ์ที พญาไท",
             "path" :"Pic/condo/เอ็กซ์ที พญาไท",
             "price":""
         },
-        "xt huaykwang":{
+        {
             "name" :"เอ็กซ์ที ห้วยขวาง",
             "path" :"Pic/condo/เอ็กซ์ที ห้วยขวาง",
             "price":""
         }
-    },
+    ],
     "townhouse":[
         {
             "name" :"ทาวน์ อเวนิว",

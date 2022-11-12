@@ -10,7 +10,7 @@ const Navbar = () => {
 
     return (
         <div className="fixed top-0 left-0 right-0 z-10">
-            {/* navbar */}
+            {/* sidebar */}
             <div className={sidebar ? "fixed top-0 right-0 h-full w-64 px-5 py-3 z-10 bg-white ": "hidden duration-300"}>
                 <button className='absolute right-2.5 btn' onClick={showSidebar}><DisabledByDefaultIcon /></button>
                 <ul className='relative'>
@@ -19,10 +19,9 @@ const Navbar = () => {
                         <Link to="/Contact"><li>Contact Us</li></Link>
                     </div>
                 </ul>
-
             </div>
             {/* menubar */}
-            <div className={sidebar ?"z-0 align-middle flex justify-between p-3 font-bold bg-white text-slate-900 duration-500":"z-0 align-middle flex justify-between p-3 bg-transparent font-bold text-white hover:bg-white hover:text-slate-900 duration-500"}>
+            <div className={sidebar ?"z-0 align-middle flex justify-between p-3 font-bold bg-white text-slate-900 duration-500":"z-0 align-middle flex justify-between p-3 bg-white font-bold  text-slate-900 hover:bg-white hover:text-slate-900 duration-500"}>
                 <div className="align-middle">
                     <Link to="/">
                         <HouseIcon sx={{ fontSize: 25 }} />

@@ -8,7 +8,7 @@ const Slidehome = (place)=> {
                 <div>
                      <img src={prop2.path+"/1-01.png"} alt="home"/>
                      {/* <img src="/Pic/house/นาราสิริ โทเพียรี่ นวมินทร์/1-01.png" alt="home"/> */}
-
+                      
                 </div>
             ))}
       </Carousel>
