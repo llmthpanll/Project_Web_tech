@@ -17,6 +17,9 @@ const Condo = () => {
                                 <p class="text-gray-700 text-base">
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
                                 </p>
+                                <button class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
+                                    Button
+                                </button>
                             </div>
                         </div>
                     </div>
