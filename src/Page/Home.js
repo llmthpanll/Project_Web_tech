@@ -10,8 +10,8 @@ const Home = () => {
   return (
     <div>
       <Navbar />
-      <div className="z-0 ">
-        <div className="flex bg-head1 bg-cover h-screen text-center justify-center relative">
+      <div className="z-0">
+        <div className="flex bg-head1 bg-cover h-screen text-center justify-center relative ">
           <div className=" font-Kanit text-white absolute bottom-44  text-6xl">
             Head TEXT EX. Home for Sale!!!
           </div>
