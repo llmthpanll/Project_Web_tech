@@ -44,17 +44,17 @@ const Footer = () => {
     <div className="bg-black text-white text-center p-4">
       <div className="flex justify-center gap-2">
         <div>
-          <a href="https://fb.com">
+          <a href="https://www.facebook.com/" target="_blank">
             <FacebookOutlinedIcon />
           </a>
         </div>
         <div>
-          <a href="https://google.com">
+          <a href="https://www.instagram.com/" target="_blank">
             <InstagramIcon />
           </a>
         </div>
         <div>
-        <a href="https://google.com">
+        <a href="https://www.github.com/" target="_blank">
           <GitHubIcon />
         </a>
         </div>
