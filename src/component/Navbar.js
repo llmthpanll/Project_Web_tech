@@ -21,7 +21,7 @@ const Navbar = () => {
                 </ul>
             </div>
             {/* menubar */}
-            <div className={sidebar ?"z-0 align-middle flex justify-between p-3 font-bold bg-white text-slate-900 duration-500":"z-0 align-middle flex justify-between p-3 bg-white font-bold  text-slate-900 hover:bg-white hover:text-slate-900 duration-500"}>
+            <div className={sidebar ?"z-0 align-middle flex justify-between p-3 font-bold bg-white text-slate-900 duration-500":"z-0 align-middle flex justify-between p-3 bg-zinc-200 font-bold  text-slate-900 hover:bg-white hover:text-slate-900 duration-500"}>
                 <div className="align-middle">
                     <Link to="/Home">
                         <HouseIcon sx={{ fontSize: 25 }} />
