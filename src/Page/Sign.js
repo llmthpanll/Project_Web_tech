@@ -4,18 +4,20 @@ import { Outlet, Link } from "react-router-dom";
 import { useState } from "react";
 import { Alert, alertClasses } from "@mui/material";
 import Home from "./Home";
+import { useNavigate } from "react-router-dom";
 const Sign = ()=>{
     const road = '';
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
+
+    const navigate = useNavigate();
 
     const onSubmit = (e) => {
         e.preventDefault();
         if (email.length == 0 || password.length == 0){
             alert("if you dont have account you can log in as guest");
         }else{
-            // location.href = "http://localhost:3000/Home";
-            alert("go to home");
+            navigate('/home');
         }
     }
 
@@ -63,9 +65,9 @@ const Sign = ()=>{
                             {/* <Link to= {road}> */}
                                 <button type="submit" className="w-full my-5 py-2 bg-teal-500 shadow-lg shadow-teal-500/50 hover:shadow-teal-500/40 text-white font-semiblod rounded-lg">Sign In</button>
                             {/* </Link> */}
-                            <Link to= "/home">
+                            {/* <Link to= "/home">
                                 <button  className="w-full my-5 py-2 bg-teal-400 shadow-lg shadow-teal-500/50 hover:shadow-teal-500/40 text-white font-semiblod rounded-lg">Login as guest</button>
-                            </Link>
+                            </Link> */}
                         </div>
                     </div>
                 </div>
