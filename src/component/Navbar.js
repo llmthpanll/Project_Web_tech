@@ -45,9 +45,9 @@ const Navbar = () => {
                 </div>
                 <div className="align-middle">
                     <ul className="flex gap-5">
-                        <li>
+                        {/* <li>
                             <SearchIcon className="cursor-pointer" sx={{ fontSize: 25 }} />
-                        </li>
+                        </li> */}
                         <li>
                             <MenuIcon className="cursor-pointer" onClick={showSidebar} sx={{ fontSize: 25 }} />
                         </li>
