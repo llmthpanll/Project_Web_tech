@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        'green-blue': '#025d63',
+      },
       backgroundImage: {
         'head1': "url('../src/Page/Pic/1.jpg')",
         'head2': "url('../src/Page/Pic/house/สราญสิริ บางนา/1-01.png')",
