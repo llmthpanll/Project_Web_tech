@@ -12,7 +12,7 @@ const Condo = () => {
                     <div>
                         <div class="max-w-sm rounded overflow-hidden shadow-lg">
                             <img class="w-full" src={element.path + "/1-01.png"} alt="home" />
-                            <div class="px-6 py-4 bg-white">
+                            <div class="px-6 py-4 h-[29rem] bg-white">
                             <div class="font-prompt font-bold text-xl mb-2">{element.name}</div>
                                 <span class="inline font-prompt text-gray-700 text-sm">
                                 {element.description}
