@@ -16,7 +16,7 @@ module.exports = {
         'head5': "url('../src/Page/Pic/1.jpg')",
       }
     ,  fontFamily: {
-             Kanit : ['Kanit']
+             prompt: ['Prompt']
             }
   },
   },

@@ -27,7 +27,7 @@ const Navbar = () => {
                         <HouseIcon sx={{ fontSize: 25 }} />
                     </Link>
                 </div>
-                <div className="align-middle justify-items-center items-center place-items-center">
+                <div className="align-middle justify-items-center items-center place-items-center ">
                     <ul className="flex gap-5 align-middle">
                         <Link to="/House">
                             <li>บ้านเดี่ยว</li>
