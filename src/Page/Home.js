@@ -6,8 +6,7 @@ import pic from "../path/home.json";
 
 
 const Home = () => {
-  const [sell, setSell] = useState(pic.house);
-  console.log(sell);
+  const [place, setSell] = useState(pic.house);
   return (
     <div>
       <Navbar />
@@ -35,7 +34,7 @@ const Home = () => {
           </button>
         </div>
 
-        <Slidehome place={sell} />
+        <Slidehome place={place} />
         <Footer />
       </div>
     </div>

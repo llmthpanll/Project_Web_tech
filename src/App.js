@@ -1,3 +1,4 @@
+import { Favorite } from "@mui/icons-material";
 import { BrowserRouter, Routes, Route} from "react-router-dom";
 import Area from "./Page/Area";
 import Condo from "./Page/Condo";
@@ -6,7 +7,6 @@ import Home from "./Page/Home";
 import House from "./Page/House";
 import Sign from "./Page/Sign";
 import Townhouse from "./Page/Townhouse";
-
 
 
 export default function App() {
@@ -21,7 +21,6 @@ export default function App() {
       <Route path="/Contact" element={<Contact />}></Route>
       <Route path="/Townhouse" element={<Townhouse />}></Route>
       <Route path="/Area" element={<Area />}></Route>
-
     </Routes>
   </BrowserRouter>
   );

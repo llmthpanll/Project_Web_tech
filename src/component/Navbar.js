@@ -1,9 +1,9 @@
-import SearchIcon from "@mui/icons-material/Search";
 import MenuIcon from "@mui/icons-material/Menu";
 import HouseIcon from "@mui/icons-material/House";
 import { Outlet, Link } from "react-router-dom";
 import DisabledByDefaultIcon from '@mui/icons-material/DisabledByDefault';
 import React, { useState } from "react";
+import FavoriteIcon from '@mui/icons-material/Favorite';
 const Navbar = () => {
     const [sidebar, setSidebar] = useState(false);
     const showSidebar = ()=> setSidebar(!sidebar);
@@ -45,9 +45,11 @@ const Navbar = () => {
                 </div>
                 <div className="align-middle">
                     <ul className="flex gap-5">
-                        {/* <li>
-                            <SearchIcon className="cursor-pointer" sx={{ fontSize: 25 }} />
-                        </li> */}
+                        <li>
+                            <Link to="/Fav">
+                                <FavoriteIcon/>
+                            </Link>
+                        </li>
                         <li>
                             <MenuIcon className="cursor-pointer" onClick={showSidebar} sx={{ fontSize: 25 }} />
                         </li>
