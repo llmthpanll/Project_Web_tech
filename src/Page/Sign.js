@@ -15,7 +15,7 @@ const Sign = ()=>{
     const onSubmit = (e) => {
         e.preventDefault();
         if (email.length == 0 || password.length == 0){
-            alert("if you dont have account you can log in as guest");
+            alert("Please Enter username and password");
         }else{
             navigate('/home');
         }
@@ -39,7 +39,7 @@ const Sign = ()=>{
                         <div className="max-w-[400px] w-full mx-auto bg-gray-900 p-8 px-8 rounded-lg">
                             <h2 className="text-4xl dark:text-white font-bold text-center">Sign in</h2>
                             <div className="flex flex-col text-gray-400 py-2">
-                                <label>User Name</label>
+                                <label>Email</label>
                                 <input
                                 id="email"
                                 className="rounded-lg bg-gray-700 mt-2 p-2 focus:border-blue-500 focus:bg-gray-800 focus:outline-none"
@@ -64,10 +64,7 @@ const Sign = ()=>{
                             </div>
                             {/* <Link to= {road}> */}
                                 <button type="submit" className="w-full my-5 py-2 bg-teal-500 shadow-lg shadow-teal-500/50 hover:shadow-teal-500/40 text-white font-semiblod rounded-lg">Sign In</button>
-                            {/* </Link> */}
-                            {/* <Link to= "/home">
-                                <button  className="w-full my-5 py-2 bg-teal-400 shadow-lg shadow-teal-500/50 hover:shadow-teal-500/40 text-white font-semiblod rounded-lg">Login as guest</button>
-                            </Link> */}
+
                         </div>
                     </div>
                 </div>
