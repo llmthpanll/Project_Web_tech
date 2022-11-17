@@ -1,8 +1,9 @@
 import Navbar from "../component/Navbar"
 import Footer from "../component/Footer"
-import React, { useState } from "react"
+
 const Booked = (data) => {
-    
+console.log("ต้องการข้อมูล =")
+console.log(data)
     return (
         <div className="">
             <Navbar />

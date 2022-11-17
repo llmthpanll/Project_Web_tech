@@ -11,7 +11,7 @@ const Navbar = () => {
     return (
         <div className="fixed top-0 left-0 right-0 z-10">
             {/* sidebar */}
-            <div className={sidebar ? "fixed top-0 right-0 h-full w-64 px-5 py-3 z-10 bg-white ": "hidden duration-300"}>
+            <div className={sidebar ? "fixed top-0 right-0 h-full w-64 px-5 py-3 z-10 bg-white ": "hidden"}>
                 <button className='absolute right-2.5 btn' onClick={showSidebar}><DisabledByDefaultIcon /></button>
                 <ul className='relative'>
                     <div className='mt-14 grid gap-y-4'>
@@ -28,7 +28,7 @@ const Navbar = () => {
                     </Link>
                 </div>
                 <div className="align-middle justify-items-center items-center place-items-center ">
-                    <ul className="flex gap-5 align-middle">
+                    <ul className="flex gap-5 items-center">
                         <Link to="/House">
                             <li>บ้านเดี่ยว</li>
                         </Link>

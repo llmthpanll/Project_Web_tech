@@ -2,8 +2,9 @@ import Carousel from 'nuka-carousel';
 
 function SlideShow(prop) {
   const place = prop.prop
-  function WannaBooked(DataPlace) {
+  function getDatafromSlideShow(DataPlace) {
     prop.getdata(DataPlace)
+    // console.log(DataPlace)
   }
   return (
     <div>
@@ -11,11 +12,11 @@ function SlideShow(prop) {
         {/* pic */}
         <div className='w-full'>
           <Carousel>
-            <img src={place.path + "/1-01.png"} alt="home" />
-            <img src={place.path + "/2-01.png"} alt="home" />
-            <img src={place.path + "/3-01.png"} alt="home" />
-            <img src={place.path + "/4-01.png"} alt="home" />
-            <img src={place.path + "/5-01.png"} alt="home" />
+            <img  src={place.path + "/1-01.png"} alt="home" />
+            <img  src={place.path + "/2-01.png"} alt="home" />
+            <img  src={place.path + "/3-01.png"} alt="home" />
+            <img  src={place.path + "/4-01.png"} alt="home" />
+            <img  src={place.path + "/5-01.png"} alt="home" />
           </Carousel>
         </div>
         {/* detail */}
@@ -34,7 +35,7 @@ function SlideShow(prop) {
             <p className=" font-prompt text-gray-700 text-sm">
               {place.location2}
             </p>
-            <button onClick={() => WannaBooked(place)} class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
+            <button onClick={() => getDatafromSlideShow(place)} className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
               Booked
             </button>
           </div>

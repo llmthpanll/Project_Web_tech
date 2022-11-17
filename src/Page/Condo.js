@@ -6,7 +6,7 @@ const Condo = (home) => {
     const style_card = "p-14 grid grid-cols-2 items-center justify-center gap-12 box-border"
     const style_head = "pt-20 text-center text-6xl"
     const getDatafromSlideShow = (data)=>{
-        home.getData(data)
+        home.getDataApp(data)
     }
     return (
         <div>
@@ -15,7 +15,7 @@ const Condo = (home) => {
             <h1 className={style_head}>สไตล์ที่ใช่...ของท่านเปา</h1>
             <div className={style_card}>
                 {Condo.map((element, index) => (
-                    <Slideshow prop={element} getdata={getDatafromSlideShow} />
+                    <Slideshow key = {element.name} prop={element} getdata={getDatafromSlideShow} />
                     ))}
             </div>
             <Footer />
