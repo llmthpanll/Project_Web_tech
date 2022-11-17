@@ -7,7 +7,7 @@ import Home from "./Page/Home";
 import House from "./Page/House";
 import Sign from "./Page/Sign";
 import Townhouse from "./Page/Townhouse";
-import Booked from "./Page/Booked";
+import Booked_page from "./Page/Booked";
 import pic from "./path/home.json";
 
 export default function App() {
@@ -30,7 +30,7 @@ export default function App() {
 
       {/* side */}
       <Route path="/Contact" element={<Contact />}></Route>
-      <Route path="/Booked" element={<Booked/>}></Route>
+      <Route path="/Booked" element={<Booked_page/>}></Route>
     </Routes>
   </BrowserRouter>
   );
