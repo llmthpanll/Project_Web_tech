@@ -8,9 +8,12 @@ const Booked = (data) => {
         <div>
             <Navbar/>
 
-            <div className="text-center">
-                <div className="text-2xl text-black">Booking</div>
+            <div className="mt-16 bg-cover h-screen text-center justify-center relative">
+            <div className="text-black text-5xl">Booking</div>
 
+                <div className="justify-center w-60 h-60 border-10">
+
+                </div>
             </div>
             <Footer/>
         </div>
