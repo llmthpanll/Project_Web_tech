@@ -1,15 +1,26 @@
 import Navbar from "../component/Navbar"
 import Footer from "../component/Footer"
-import pic from "../path/home.json";
-import React, { useState } from "react"
-const Condo = () => {
-    const [sell, setSell] = useState(pic.townhouse)
+import Slideshow from "../component/Slideshow"
+const Townhouse = (home) => {
+    const Townhouse = home.data
+    const style_card = "p-14 grid grid-cols-2 items-center justify-center gap-12 box-border"
+    const style_head = "pt-20 text-center text-6xl"
+    const getDatafromSlideShow = (data)=>{
+        home.getData(data)
+    }
     return (
-        <div className="">
+        <div>
             <Navbar />
+            <h1 className={style_head}>บ้านเดี่ยวโดนใจ</h1>
+            <h1 className={style_head}>สไตล์ที่ใช่...ของท่านเปา</h1>
+            <div className={style_card}>
+                {Townhouse.map((element, index) => (
+                    <Slideshow prop={element} getdata={getDatafromSlideShow} />
+                    ))}
+            </div>
             <Footer />
         </div>
     );
 }
 
-export default Condo;
+export default Townhouse;

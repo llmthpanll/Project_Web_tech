@@ -1,25 +1,22 @@
 import Navbar from "../component/Navbar"
 import Footer from "../component/Footer"
-import React, { useState } from "react"
 import Slideshow from "../component/Slideshow"
-import pic from "../path/home.json";
-const House = () => {
-    const [place, setSell] = useState(pic);
-    console.log(place)
+const House = (home) => {
+    const house = home.data
+    const style_card = "p-14 grid grid-cols-2 items-center justify-center gap-12 box-border"
+    const style_head = "pt-20 text-center text-6xl"
+    const getDatafromSlideShow = (data)=>{
+        home.getData(data)
+    }
     return (
         <div>
             <Navbar />
-            <div className="grid grid-cols-2">
-                <Slideshow prop={place.house[0]} />
-                <p>lorem heloo</p>
-                <Slideshow prop={place.house[1]} />
-                <p>lorem heloo</p>
-                <Slideshow prop={place.house[2]} />
-                <p>lorem heloo</p>
-                <Slideshow prop={place.house[3]} />
-                <p>lorem heloo</p>
-                <Slideshow prop={place.house[4]} />
-                <p>lorem heloo</p>
+            <h1 className={style_head}>บ้านเดี่ยวโดนใจ</h1>
+            <h1 className={style_head}>สไตล์ที่ใช่...ของท่านเปา</h1>
+            <div className={style_card}>
+                {house.map((element, index) => (
+                    <Slideshow prop={element} getdata={getDatafromSlideShow} />
+                    ))}
             </div>
             <Footer />
         </div>

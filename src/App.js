@@ -7,20 +7,30 @@ import Home from "./Page/Home";
 import House from "./Page/House";
 import Sign from "./Page/Sign";
 import Townhouse from "./Page/Townhouse";
-
+import Booked from "./Page/Booked";
+import pic from "./path/home.json";
 
 export default function App() {
+  const stamp = []
+  function Booked(data){
+    stamp = [...stamp, data]
+  }
   return (
     <BrowserRouter>
     <Routes>
       <Route path="/" element={<Sign />} ></Route>
       <Route path="/Home" element={<Home />} ></Route>
-      <Route path="/House" element={<House />}></Route>
       <Route path="/Sign" element={<Sign />}></Route>
-      <Route path="/Condo" element={<Condo />}></Route>
+
+      {/* main */}
+      <Route path="/House" element={<House data={pic.house} getData={Booked}/>}></Route>
+      <Route path="/Condo" element={<Condo data={pic.condo} getData={Booked}/>}></Route>
+      <Route path="/Townhouse" element={<Townhouse data={pic.townhouse} getData={Booked}/>}></Route>
+      <Route path="/Area" element={<Area data={pic.market} getData={Booked}/>}></Route>
+
+      {/* side */}
       <Route path="/Contact" element={<Contact />}></Route>
-      <Route path="/Townhouse" element={<Townhouse />}></Route>
-      <Route path="/Area" element={<Area />}></Route>
+      <Route path="/Booked" element={<Booked/>}></Route>
     </Routes>
   </BrowserRouter>
   );
