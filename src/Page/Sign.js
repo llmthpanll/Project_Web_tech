@@ -33,7 +33,7 @@ const Sign = ()=>{
                         <img className="h-full w-full object-cover" src={loginImg} alt=""/>
                     </div>
 
-                    <div className="bg-gray-400 flex flex-col justify-center">
+                    <div className="bg-gray-100 flex flex-col justify-center">
                         <div className="max-w-[400px] w-full mx-auto bg-gray-900 p-8 px-8 rounded-lg">
                             <h2 className="text-4xl dark:text-white font-bold text-center">Sign in</h2>
                             <div className="flex flex-col text-gray-400 py-2">
