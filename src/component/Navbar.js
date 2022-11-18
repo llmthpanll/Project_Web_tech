@@ -9,7 +9,7 @@ const Navbar = () => {
     const showSidebar = ()=> setSidebar(!sidebar);
 
     return (
-        <div className="fixed top-0 left-0 right-0 z-10">
+        <div className="font-prompt fixed top-0 left-0 right-0 z-10">
             {/* sidebar */}
             <div className={sidebar ? "fixed top-0 right-0 h-full w-64 px-5 py-3 z-10 bg-white ": "hidden"}>
                 <button className='absolute right-2.5 btn' onClick={showSidebar}><DisabledByDefaultIcon /></button>
@@ -27,10 +27,10 @@ const Navbar = () => {
                         <HouseIcon sx={{ fontSize: 25 }} />
                     </Link>
                 </div>
-                <div className="align-middle justify-items-center items-center place-items-center ">
-                    <ul className="flex gap-5 items-center">
+                <div className=" font-prompt align-middle justify-items-center items-center place-items-center ">
+                    <ul className="flex gap-5 align-middle">
                         <Link to="/House">
-                            <li>บ้านเดี่ยว</li>
+                            <li >บ้านเดี่ยว</li>
                         </Link>
                         <Link to="/Townhouse">
                             <li>ทาวเฮาส์</li>
