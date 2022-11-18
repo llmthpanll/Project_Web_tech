@@ -5,6 +5,13 @@ module.exports = {
   ],
   theme: {
     extend: {
+      height: {
+        '128': '32rem',
+        '90vh': '90vh',
+        '80vh': '80vh',
+        '20vh': '20vh',
+        '10vh': '10vh',
+      },
       borderWidth: {
         DEFAULT: '1px',
         '0': '0',
