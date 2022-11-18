@@ -13,8 +13,8 @@ const Booked = (home) => {
   return (
     <div>
       <Navbar />
-      <h1 className={"pt-20" + style_head}>บ้านเดี่ยวโดนใจ</h1>
-      <h1 className={"pt-10 pb-10" + style_head}>สไตล์ที่ใช่...ของท่านเปา</h1>
+      <h1 className={"pt-20" + style_head}>รายการจองของคุณ</h1>
+      <h1 className={"pt-10 pb-10" + style_head}>♥ ถูกใจ ♥</h1>
       <div className={style_card}>
         {booked.map((element, index) => (
           <Slidebook key={element.name} prop={element} getdata={getDatafromSlideShow} />
