@@ -24,7 +24,7 @@ const Home = () => {
             สัมผัสกับธรรมชาติ
           </div>
           <Link to="/House">
-            <button class=" font-prompt absolute top-80 right-96 bg-gray-300 bg-opacity-75 hover:bg-gray-200 text-black  py-2 px-4  rounded w-48 text-2xl">
+            <button className=" font-prompt absolute top-80 right-96 bg-gray-300 bg-opacity-75 hover:bg-gray-200 text-black  py-2 px-4  rounded w-48 text-2xl">
               จองเลย
             </button>
           </Link>
@@ -39,7 +39,7 @@ const Home = () => {
             มีสระว่ายน้ำ ฟิตเนส ครบ
           </div>
         <Link to="/Townhouse">
-          <button class=" font-prompt absolute top-80 right-96 bg-gray-300 bg-opacity-75 hover:bg-gray-200 text-black  py-2 px-4  rounded w-48 text-2xl">
+          <button className=" font-prompt absolute top-80 right-96 bg-gray-300 bg-opacity-75 hover:bg-gray-200 text-black  py-2 px-4  rounded w-48 text-2xl">
             จองเลย
           </button>
         </Link>
@@ -53,7 +53,7 @@ const Home = () => {
             มาพร้อมกับโครงการใหม่ ส่วนกลางดีเยี่ยมเป็นมิตรกับสิ่งแวดล้อมมาพร้อมกับสระว่ายน้ำและฟิตเนส
           </div>
         <Link to="/Condo">
-          <button class=" font-prompt absolute top-80 right-96 bg-gray-300 bg-opacity-75 hover:bg-gray-200 text-black font-bold py-2 px-4  rounded w-48 text-2xl">
+          <button className=" font-prompt absolute top-80 right-96 bg-gray-300 bg-opacity-75 hover:bg-gray-200 text-black font-bold py-2 px-4  rounded w-48 text-2xl">
             จองเลย
           </button>
         </Link>
