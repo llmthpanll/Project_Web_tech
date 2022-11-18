@@ -18,7 +18,7 @@ const Contact = () => {
                     <MultipleSelect />
                 </div>
 
-                <div className="">
+                <div>
                     <div className="grid grid-cols-2 gap-x-3">
                         <TextField label="ชื่อ" variant="standard" />
                         <TextField label="นามสกุล" variant="standard" />

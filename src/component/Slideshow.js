@@ -21,7 +21,7 @@ function SlideShow(prop) {
         </div>
         {/* detail */}
         <div>
-          <div className="px-6 py-4 bg-white">
+          <div className="h-96 px-6 py-4 bg-white">
             <div className="font-prompt font-bold text-xl mb-2">{place.name}</div>
             <span className="inline font-prompt text-gray-700 text-sm">
               {place.description}
