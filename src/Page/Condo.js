@@ -8,6 +8,7 @@ const Condo = (home) => {
     const style_head = " text-center text-4xl font-prompt font-medium"
     const getDatafromSlideShow = (data) => {
         home.getDataApp(data)
+        alert("เพิ่มเขาไปใน book แล้ว")
     }
     return (
         <div>

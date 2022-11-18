@@ -3,8 +3,8 @@ import Navbar from "../component/Navbar";
 import Footer from "../component/Footer";
 import Slidehome from "../component/Slidehome";
 import pic from "../path/home.json";
-import { Outlet, Link, json } from "react-router-dom";
-import { v4 as uuidv4 } from 'uuid';
+import {Link} from "react-router-dom";
+
 
 
 const Home = () => {

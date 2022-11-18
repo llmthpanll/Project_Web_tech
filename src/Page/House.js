@@ -7,6 +7,8 @@ const House = (home) => {
     const style_card = " p-14 grid grid-cols-2 items-center justify-center gap-12 box-border"
     const style_head = " text-center text-4xl font-prompt font-medium"
     const getDatafromSlideShow = (data) => {
+        // console.log(data)
+        alert("เพิ่มเขาไปใน book แล้ว")
         home.getDataApp(data)
     }
     return (

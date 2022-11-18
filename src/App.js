@@ -14,10 +14,13 @@ export default function App() {
   const [stamp, setStamp] = useState([])
   useEffect(()=>{
     console.log(stamp)
-
   },[stamp])
+
+
   function UnBook(data) {
-    setStamp([...new Set([...stamp, data])])
+   stamp.splice(stamp.indexOf(data), 1)
+   console.log(stamp)
+   setStamp([...stamp])
   }
   function BookHome(data) {
     setStamp([...new Set([...stamp, data])])
@@ -37,7 +40,7 @@ export default function App() {
 
       {/* side */}
       <Route path="/Contact" element={<Contact />}></Route>
-      <Route path="/Booked" element={<Booked_page data={stamp} />} deleteDataApp={UnBook}></Route>
+      <Route path="/Booked" element={<Booked_page data={stamp} getDataApp={UnBook} />}></Route>
     </Routes>
   </BrowserRouter>
   );
