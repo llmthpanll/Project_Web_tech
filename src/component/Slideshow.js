@@ -1,11 +1,24 @@
 import Carousel from 'nuka-carousel';
-
+import toast, { Toaster } from "react-hot-toast";
+import { MdOutlineClose } from "react-icons/md";
+import FavoriteIcon from '@mui/icons-material/Favorite';
 function SlideShow(prop) {
   const place = prop.prop
   function getDatafromSlideShow(DataPlace) {
     prop.getdata(DataPlace)
     // console.log(DataPlace)
-    
+    toast.custom(
+      (t) => (
+        <div >
+          <div class="flex gap-1 p-4 mb-4 text-sm text-green-700 bg-green-100 rounded-lg dark:bg-green-200 dark:text-green-800" role="alert">
+            <div class="font-medium">Booked Success !!</div>
+            <div>You can check in <FavoriteIcon className="text-red-400"/></div>
+            <div className='cursor-pointer' onClick={() => toast.dismiss(t.id)}><MdOutlineClose /></div>
+          </div>
+        </div>
+      ),
+      { id: "unique-notification", position: "top-center" }
+    );
   }
   return (
     <div>
@@ -13,11 +26,11 @@ function SlideShow(prop) {
         {/* pic */}
         <div className='w-full'>
           <Carousel>
-            <img  src={place.path + "/1-01.png"} alt="home" />
-            <img  src={place.path + "/2-01.png"} alt="home" />
-            <img  src={place.path + "/3-01.png"} alt="home" />
-            <img  src={place.path + "/4-01.png"} alt="home" />
-            <img  src={place.path + "/5-01.png"} alt="home" />
+            <img src={place.path + "/1-01.png"} alt="home" />
+            <img src={place.path + "/2-01.png"} alt="home" />
+            <img src={place.path + "/3-01.png"} alt="home" />
+            <img src={place.path + "/4-01.png"} alt="home" />
+            <img src={place.path + "/5-01.png"} alt="home" />
           </Carousel>
         </div>
         {/* detail */}
@@ -39,6 +52,7 @@ function SlideShow(prop) {
             <button onClick={() => getDatafromSlideShow(place)} className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
               Booked
             </button>
+            <Toaster />
           </div>
         </div>
       </div>
