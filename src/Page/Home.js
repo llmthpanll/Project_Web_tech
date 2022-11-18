@@ -3,11 +3,11 @@ import Navbar from "../component/Navbar";
 import Footer from "../component/Footer";
 import Slidehome from "../component/Slidehome";
 import pic from "../path/home.json";
-import { Outlet, Link } from "react-router-dom";
-
+import { Outlet, Link, json } from "react-router-dom";
+import { v4 as uuidv4 } from 'uuid';
 
 const Home = () => {
-  const [place, setSell] = useState(pic.house);
+  const place = pic.house;
   return (
     <div>
       <Navbar />
@@ -58,7 +58,7 @@ const Home = () => {
         </Link>
         </div>
 
-        <Slidehome place={place} />
+        <Slidehome  place={place} />
         <Footer />
       </div>
     </div>

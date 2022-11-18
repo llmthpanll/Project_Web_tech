@@ -7,7 +7,6 @@ const House = (home) => {
     const style_head = "pt-20 text-center text-6xl"
     const getDatafromSlideShow = (data)=>{
         home.getDataApp(data)
-        // console.log(data)
     }
     return (
         <div>

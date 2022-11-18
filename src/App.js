@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route, useNavigate } from "react-router-dom";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Area from "./Page/Area";
 import Condo from "./Page/Condo";
 import Contact from "./Page/Contact";
@@ -11,12 +11,16 @@ import Booked_page from "./Page/Booked";
 import pic from "./path/home.json";
 
 export default function App() {
-  let stamp = []
-  console.log("ข้อมูล =")
-  function BookHome(data) {
-    stamp.push(data)
-    stamp = [...new Set(stamp)]
+  const [stamp, setStamp] = useState([])
+  useEffect(()=>{
     console.log(stamp)
+
+  },[stamp])
+  function UnBook(data) {
+    setStamp([...new Set([...stamp, data])])
+  }
+  function BookHome(data) {
+    setStamp([...new Set([...stamp, data])])
   }
   return (
     <BrowserRouter>
@@ -33,7 +37,7 @@ export default function App() {
 
       {/* side */}
       <Route path="/Contact" element={<Contact />}></Route>
-      <Route path="/Booked" element={<Booked_page/>}></Route>
+      <Route path="/Booked" element={<Booked_page data={stamp} />} deleteDataApp={UnBook}></Route>
     </Routes>
   </BrowserRouter>
   );

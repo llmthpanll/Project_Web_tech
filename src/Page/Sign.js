@@ -1,9 +1,7 @@
 import Navbar from "../component/Navbar"
 import loginImg from "./Pic/condo/เอ็กซ์ที พญาไท/3-01.png"
-import { Outlet, Link } from "react-router-dom";
 import { useState } from "react";
-import { Alert, alertClasses } from "@mui/material";
-import Home from "./Home";
+import Footer from "../component/Footer";
 import { useNavigate } from "react-router-dom";
 const Sign = ()=>{
     const road = '';
@@ -25,9 +23,9 @@ const Sign = ()=>{
     return(
         <div>
 
-            {/* <div>
+            <div>
                 <Navbar/>
-            </div> */}
+            </div>
 
             <form onSubmit={onSubmit}>
                 <div className="grid grid-cols-1 sm:grid-cols-2 h-screen w-full">
@@ -69,7 +67,9 @@ const Sign = ()=>{
                     </div>
                 </div>
             </form>
-
+            <div>
+                <Footer/>
+            </div>
         </div>
     )
 }
