@@ -4,7 +4,6 @@ import { useState } from "react";
 import Footer from "../component/Footer";
 import { useNavigate } from "react-router-dom";
 const Sign = () => {
-    const road = '';
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
 
