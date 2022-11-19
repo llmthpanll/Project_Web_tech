@@ -41,11 +41,11 @@ function SlideShow(prop) {
               {place.description}
             </span>
             <div className="font-prompt font-bold text-lg mb-2">{place.price}</div>
-            <img className="w-6 py-2" src={place.icon1} />
+            <img className="w-6 py-2" src={place.icon1} alt="description of image"/>
             <p className=" font-prompt text-gray-700 text-sm">
               {place.location1}
             </p>
-            <img className="w-6 py-2" src={place.icon2} />
+            <img className="w-6 py-2" src={place.icon2} alt="description of image"/>
             <p className=" font-prompt text-gray-700 text-sm">
               {place.location2}
             </p>

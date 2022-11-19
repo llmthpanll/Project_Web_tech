@@ -48,7 +48,7 @@ function Slidebook(prop) {
                                 </div>
                                 <div className="flex items-center w-96">
                                 <img className="ml-1 w-6 py-2 mr-2" src={place.icon3} />
-                                <p className=" font-prompt text-gray-700 text-sm">
+                                <p className=" ml-1 font-prompt text-gray-700 text-sm">
                                     {place.contact}
                                 </p>
                                 </div>
@@ -59,7 +59,7 @@ function Slidebook(prop) {
                                     className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
                                     Unbooked
                                 </button>
-                            </div> 
+                            </div>
                         </div>
                     </div>
                 </div>
