@@ -1,5 +1,5 @@
 import Navbar from "../component/Navbar"
-import loginImg from "./Pic/condo/เอ็กซ์ที พญาไท/3-01.png"
+import loginImg from "./Pic/condo/xtpt/3-01.png"
 import { useState } from "react";
 import Footer from "../component/Footer";
 import { useNavigate } from "react-router-dom";
