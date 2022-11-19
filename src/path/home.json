@@ -8,7 +8,9 @@
             "icon1": "/Pic/store.png",
             "icon2": "/Pic/school.png",
             "location1": "550 เมตร Max Valu สาขา นวมินทร์",
-            "location2": "1 กม. โรงเรียนบดินทรเดชา "
+            "location2": "1 กม. โรงเรียนบดินทรเดชา ",
+            "icon3": " /Pic/contact.png",
+            "contact" : "โทร. 1685 หรือ Email: NR2@sansiri.com"
         },
         {
             "name": "นาราสิริ บางนา",
@@ -18,7 +20,9 @@
             "icon1": "/Pic/store.png",
             "icon2": "/Pic/hospital.png",
             "location1": "4.6 กม. เมกาบางนา ",
-            "location2": "5.9 กม โรงพยาบาลพริ้นซ์ สุวรรณภูมิ "
+            "location2": "5.9 กม โรงพยาบาลพริ้นซ์ สุวรรณภูมิ ",
+            "icon3": " /Pic/contact.png",
+            "contact" : "โทร. 1685 หรือ Email: NR2@sansiri.com"
         },
         {
             "name": "นาราสิริ ปิ่นเกล้า - สาย1",
@@ -28,7 +32,10 @@
             "icon1": "/Pic/store.png",
             "icon2": "/Pic/train.png",
             "location1": "550 เมตร Max Valu สาขา นวมินทร์",
-            "location2": "1 กม. โรงเรียนบดินทรเดชา "
+            "location2": "1 กม. โรงเรียนบดินทรเดชา ",
+            "icon3": " /Pic/contact.png",
+            "contact" : "โทร. 1685 หรือ Email: NR2@sansiri.com"
+           
         },
         {
             "name": "นาราสิริ พระราม 2",
@@ -38,7 +45,12 @@
             "icon1": "/Pic/store.png",
             "icon2": "/Pic/train.png",
             "location1": "900 เมตร Neta พระราม 2",
-            "location2": "2.8 กม.โรงเรียนสถานีพรมแดน"
+            "location2": "2.8 กม.โรงเรียนสถานีพรมแดน",
+            "icon3": " /Pic/contact.png",
+            "contact" : "โทร. 1685 หรือ Email: NR2@sansiri.com"
+            
+            
+            
         },
         {
             "name": "บุราสิริ",
@@ -48,7 +60,9 @@
             "icon1": "/Pic/store.png",
             "icon2": "/Pic/school.png",
             "location1": "7 กม. มาร์เก็ต เพลส กรุงเทพกรีฑา",
-            "location2": "900 เมตร โรงเรียนนานาชาติ ไบรท์ตัน คอลเลจ"
+            "location2": "900 เมตร โรงเรียนนานาชาติ ไบรท์ตัน คอลเลจ",
+            "icon3": " /Pic/contact.png",
+            "contact" : "โทร. 1685 หรือ Email: sales_BKT@sansiri.com"
         },
         {
             "name": "เศรษฐสิริ",
@@ -58,7 +72,9 @@
             "icon1": "/Pic/store.png",
             "icon2": "/Pic/way.png",
             "location1": "9.2 กม โรบินสัน ศรีสมาน",
-            "location2": "9.5 กม. ทางพิเศษอุดรรัถยา ด่านศรีสมาน "
+            "location2": "9.5 กม. ทางพิเศษอุดรรัถยา ด่านศรีสมาน ",
+            "icon3": " /Pic/contact.png",
+            "contact" : "โทร. 1685 หรือ Email: sck2@sansiri.com"
         },
         {
             "name": "สราญสิริ บางนา",
@@ -68,7 +84,9 @@
             "icon1": "/Pic/store.png",
             "icon2": "/Pic/plane.png",
             "location1": "15 กม เมกา บางนา",
-            "location2": "9 กม ท่าอากาศยานสุวรรณภูมิ"
+            "location2": "9 กม ท่าอากาศยานสุวรรณภูมิ",
+            "icon3": " /Pic/contact.png",
+            "contact" : "โทร. 1685 หรือ Email: sales_BKT@sansiri.com"
         },
         {
             "name": "สราญสิริ ประชาอุทิศ 90",
@@ -78,7 +96,9 @@
             "icon1": "/Pic/store.png",
             "icon2": "/Pic/hospital.png",
             "location1": "4 กม. บิ๊กซี ซุปเปอร์มาร์เก็ต ประชาอุทิศ 90",
-            "location2": "6 กม. โรงพยาบาลบางจาก"
+            "location2": "6 กม. โรงพยาบาลบางจาก",
+            "icon3": " /Pic/contact.png",
+            "contact" : "โทร. 1685 หรือ Email: sales_BKT@sansiri.com"
         },
         {
             "name": "สราญสิริ พระราม 2",
@@ -88,7 +108,9 @@
             "icon1": "/Pic/store.png",
             "icon2": "/Pic/hospital.png",
             "location1": "7.4 กม เซ็นทรัล พลาซา พระราม 2",
-            "location2": "5.9 กม โรงพยาบาล บางปะกอก 9 อินเตอร์เนชั่นแนล"
+            "location2": "5.9 กม โรงพยาบาล บางปะกอก 9 อินเตอร์เนชั่นแนล",
+            "icon3": " /Pic/contact.png",
+            "contact" : "โทร. 1685 หรือ Email: sales_BKT@sansiri.com"
         }
     ],
     "market": [
@@ -100,7 +122,9 @@
             "icon1": "/Pic/store.png",
             "icon2": "/Pic/train.png",
             "location1": "500 เมตร ตลาดเสริมสุข ",
-            "location2": "1.5 กม ทางด่วน บางนา- ตราด"
+            "location2": "1.5 กม ทางด่วน บางนา- ตราด",
+            "icon3": " /Pic/contact.png",
+            "contact" : "โทร. 1685 หรือ Email: sales_BKT@sansiri.com"
         }
     ],
     "condo": [
@@ -112,7 +136,9 @@
             "icon1": "/Pic/store.png",
             "icon2": "/Pic/train.png",
             "location1": "2.8 กม. ห้างสรรพสินค้าสยามพารากอน",
-            "location2": "700 เมตร รถไฟฟ้า BTS พญาไท"
+            "location2": "700 เมตร รถไฟฟ้า BTS พญาไท",
+            "icon3": " /Pic/contact.png",
+            "contact" : "โทร. 1685 หรือ Email: XTHuaikhwang@sansiri.com"
         },
         {
             "name": "เอ็กซ์ที ห้วยขวาง",
@@ -122,7 +148,9 @@
             "icon1": "/Pic/store.png",
             "icon2": "/Pic/train.png",
             "location1": "2.8 กม.เซ็นทรัล พระราม 9",
-            "location2": "75 เมตร รถไฟฟ้า MRT ห้วยขวาง"
+            "location2": "75 เมตร รถไฟฟ้า MRT ห้วยขวาง",
+            "icon3": " /Pic/contact.png",
+            "contact" : "โทร. 1685 หรือ Email: XTHuaikhwang@sansiri.com"
         }
     ],
     "townhouse": [
@@ -134,7 +162,9 @@
             "icon1": "/Pic/store.png",
             "icon2": "/Pic/train.png",
             "location1": "1.42 กม. เซ็นทรัล พลาซ่า เวสต์เกต",
-            "location2": "0.58 กม รถไฟฟ้า MRT สามแยกบางใหญ่"
+            "location2": "0.58 กม รถไฟฟ้า MRT สามแยกบางใหญ่",
+            "icon3": " /Pic/contact.png",
+            "contact" : "โทร. 1685 หรือ Email: TART@sansiri.com"
         },
         {
             "name": "ทาวน์ อเวนิว",
@@ -144,7 +174,9 @@
             "icon1": "/Pic/store.png",
             "icon2": "/Pic/plane.png",
             "location1": "1.5 กม. เซนทรัล พลาซ่า พิษณุโลก",
-            "location2": "13 กม.สนามบิน พิษณุโลก "
+            "location2": "13 กม.สนามบิน พิษณุโลก ",
+            "icon3": " /Pic/contact.png",
+            "contact" : "โทร. 1685 หรือ Email: TART@sansiri.com"
         }
     ]
 }

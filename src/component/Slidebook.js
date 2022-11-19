@@ -34,7 +34,7 @@ function Slidebook(prop) {
                                 {place.price}
                             </div>
                             <div className="flex items-center">
-                                <div className="flex items-center w-64">
+                                <div className="flex items-center w-72">
                                 <img className="w-6 py-2 mr-2" src={place.icon1} />
                                 <p className=" font-prompt text-gray-700 text-sm">
                                     {place.location1}
@@ -44,6 +44,12 @@ function Slidebook(prop) {
                                 <img className="ml-9 w-6 py-2 mr-2" src={place.icon2} />
                                 <p className=" font-prompt text-gray-700 text-sm">
                                     {place.location2}
+                                </p>
+                                </div>
+                                <div className="flex items-center w-96">
+                                <img className="ml-1 w-6 py-2 mr-2" src={place.icon3} />
+                                <p className=" font-prompt text-gray-700 text-sm">
+                                    {place.contact}
                                 </p>
                                 </div>
                             </div>
