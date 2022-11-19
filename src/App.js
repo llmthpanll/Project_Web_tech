@@ -26,7 +26,7 @@ export default function App() {
     setStamp([...new Set([...stamp, data])])
   }
   return (
-    <BrowserRouter basename="/it4">
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<Sign />} ></Route>
         <Route path="/Home" element={<Home />} ></Route>
