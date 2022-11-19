@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, useNavigate } from "react-router-dom";
+import { BrowserRouter, Routes, Route, HashRouter, useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
 import Area from "./Page/Area";
 import Condo from "./Page/Condo";
@@ -26,7 +26,7 @@ export default function App() {
     setStamp([...new Set([...stamp, data])])
   }
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Sign />} ></Route>
         <Route path="/Home" element={<Home />} ></Route>
@@ -42,6 +42,6 @@ export default function App() {
       <Route path="/Contact" element={<Contact />}></Route>
       <Route path="/Booked" element={<Booked_page data={stamp} getDataApp={UnBook} />}></Route>
     </Routes>
-  </BrowserRouter>
+  </HashRouter>
   );
 }
