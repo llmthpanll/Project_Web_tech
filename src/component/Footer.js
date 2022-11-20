@@ -18,7 +18,7 @@ const Footer = () => {
           </a>
         </div>
         <div>
-        <a href="https://www.github.com/" target="_blank">
+        <a href="https://github.com/llmthpanll/Project_Web_tech" target="_blank">
           <GitHubIcon />
         </a>
         </div>
